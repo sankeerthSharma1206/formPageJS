@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  background-image: url(background.jpg);
+  margin-top: 40px;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.formCreation {
+  width: 700px;
+  background-color: rgb(0, 0, 0, 0.6);
+  margin: auto;
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.formPage {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 700px;
+  margin: auto;
+}
+
+form {
+  padding: 10px;
+}
+
+.left {
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.name {
+  position: relative;
+  left: 100px;
+  top: -30px;
+  line-height: 30px;
+  width: 400px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.email {
+  position: relative;
+  left: 100px;
+  top: -30px;
+  line-height: 30px;
+  width: 400px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.confirmPassword {
+  position: relative;
+  left: 100px;
+  top: -30px;
+  line-height: 30px;
+  width: 400px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.password {
+  position: relative;
+  left: 100px;
+  top: -30px;
+  line-height: 30px;
+  width: 400px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.number {
+  position: relative;
+  left: 100px;
+  top: -30px;
+  line-height: 30px;
+  width: 400px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.countryCode {
+  position: relative;
+  left: 220px;
+  top: -37px;
+  line-height: 30px;
+  width: 15px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.country_code {
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 16px;
+  left: 140px;
+  top: -4px;
+}
+
+/* .code {
+  position: relative;
+  left: 150px;
+  top: -37px;
+  line-height: 30px;
+  width: 30px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+} */
+
+.area-code {
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 16px;
+  left: 80px;
+  top: -4px;
+}
+.phone-number {
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 16px;
+  left: -100px;
+  top: -2px;
+}
+
+.website {
+  position: relative;
+  left: 100px;
+  top: -30px;
+  line-height: 30px;
+  width: 400px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+#button_container {
+  text-align: center;
+}
+
+button {
+  background-color: #3baf9f;
+  margin: 10px 0px 0px 10px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #366473;
+  padding: 14px 50px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+  display: inline-block;
+}
+button:hover {
+  background-color: #5390f5;
+}

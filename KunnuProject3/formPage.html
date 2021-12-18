@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> </title>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="formstyle.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="validation.js"></script>
+  </head>
+
+  <body>
+    <div class="formCreation">
+      <h1>Account Creation</h1>
+      <div class="formPage">
+        <p>*Please fill the required feilds*</p>
+        <form id="registration_form" action="">
+
+          <h2 class="left">Name*</h2>
+          <input class="name" id="form_name" type="text" name="Name of person" />
+          <span class="error_form" id="name_error_message"></span>
+
+
+          <h2 class="left">Email*</h2>
+          <input class="email"  id="form_email" type="email" name="email of person" />
+          <span class="error_form" id="email_error_message"></span>
+
+
+          <h2 class="left">Password*</h2>
+          <input class="password" id="form_password" type="password" name="password" />
+          <span class="error_form" id="password_error_message"></span>
+
+
+          <h2 class="left">Confirm Password*</h2>
+          <input
+            class="confirmPassword"
+            id="form_confirmPassword"
+            type="password"
+            name="confirm password"            
+          />
+          <span class="error_form" id="retype_password_error_message"></span>
+
+          <!-- <h2 class="left">Telephone Number</h2>
+          <input class="countryCode" type="number" name="country_code" />
+          <label class="country_code">Country Code</label>
+
+          <!-- <input class="code" type="number" name="area_code" />
+          <label class="area-code">Area Code</label>
+          <!-- <span class="error_form" id="area_code_error_message"></span> -->
+          <!-- <input class="number" id="form_number" type="number" name="phone" /> -->
+          <!-- <label class="phone-number">Telephone Number</label> -->
+          <!-- <span class="error_form" id="phone_number_error_message"></span>  -->
+
+          <h2 class="left">Telephone Number</h2>
+          <input class="number" id="form_number" type="number" name="number" />
+          <span class="error_number" id="number_error_message"></span>
+
+          <h2 class="left">Website</h2>
+          <input class="website" id="form_website" type="url" name="website" />
+          <span class="error_form" id="website_error_message"></span>
+
+          <div id="button_container">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
